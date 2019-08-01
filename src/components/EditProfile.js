@@ -18,7 +18,7 @@ class EditProfile extends Component {
         const data_password = this.password.value
 
         // field
-        formData.append('avatar', avatar)
+        formData.append('avatars', avatar)
         formData.append('name', data_name)
         formData.append('email', data_email)
         formData.append('age', data_age)
