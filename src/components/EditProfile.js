@@ -25,7 +25,7 @@ class EditProfile extends Component {
         formData.append('password', data_password)
 
         axios.patch(
-            '/users/' + this.props.id,
+            '/users/' + this.props.userid,
             formData
         ).then (res => {
             console.log(res.data)
@@ -75,7 +75,7 @@ class EditProfile extends Component {
                         <button
                             className='btn btn-primary'
                             onClick={this.onButtonClick}
-                        >Update Photo</button>
+                        >Update Profile</button>
                     </div>
             )
         }
