@@ -3,7 +3,7 @@
 
 ## Upload ke GITHUB
 
-Di Visual Studio Code reate folder .gitignore ketik di dalamnya --> /node_modules
+Di Visual Studio Code create folder .gitignore ketik di dalamnya --> /node_modules
 PUSH Semua File ke GitHub
 
 
