@@ -38,7 +38,7 @@ heroku --version
 
 di package.json, tambah di bagian
 
-_"scripts": {
+"scripts": {
     "start": "nodemon src/index.js",
 
 #### Lalu:
