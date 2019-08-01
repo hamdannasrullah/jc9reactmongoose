@@ -1,10 +1,14 @@
 # FRONT END MONGODB
 
-## PUSH Semua File ke GitHub
-Create folder .gitignore ketik di dalamnya --> /node_modules
+
+## Upload ke GITHUB
+
+Di Visual Studio Code reate folder .gitignore ketik di dalamnya --> /node_modules
+PUSH Semua File ke GitHub
+
 
 ## Cara Instal HEROKU
-
+download aplikasinya di heroku.com
 npm install -g heroku-cli
 
 ## Versi HEROKU
@@ -33,10 +37,10 @@ heroku --version
 
 di package.json, tambah di bagian
 
-"scripts": {
+_"scripts": {
     "start": "nodemon src/index.js",
 
-_ _ Lalu:
+#### Lalu:
 
 npm install nodemon
 
