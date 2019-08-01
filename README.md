@@ -1,4 +1,4 @@
-## FRONT END MONGODB
+# FRONT END MONGODB
 
 ## PUSH Semua File ke GitHub
 Create folder .gitignore ketik di dalamnya --> /node_modules
@@ -36,7 +36,7 @@ di package.json, tambah di bagian
 "scripts": {
     "start": "nodemon src/index.js",
 
-## Lalu:
+** Lalu:
 
 npm install nodemon
 
