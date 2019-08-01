@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import {connect} from 'react-redux'
-
+import {onLogout} from '../actions/'
 
 import {
     Button,
@@ -76,7 +76,7 @@ class Header extends Component {
                                 <DropdownItem>Edit Profile</DropdownItem>
                             </Link>
                             <DropdownItem divider />
-                            <Button className="dropdown-item" >
+                            <Button onClick={this.props.onLogout} className="dropdown-item" >
                                 Log out
                             </Button>
                             
@@ -97,4 +97,4 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps)(Header)
+export default connect(mapStateToProps, {onLogout})(Header)

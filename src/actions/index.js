@@ -66,3 +66,14 @@ export const keepLogin = (user) => {
         
 //     }
 // }
+
+
+export const onLogout = () => {
+    // hapus data di cookie
+    cookie.remove('dataUser')
+
+    // kirim action ke reducer, untuk hapus data di state
+    return {
+        type: 'LOGOUT_SUCCESS'
+    }
+}
