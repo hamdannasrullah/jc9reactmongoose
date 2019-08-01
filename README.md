@@ -36,7 +36,7 @@ di package.json, tambah di bagian
 "scripts": {
     "start": "nodemon src/index.js",
 
-** Lalu:
+_ _ Lalu:
 
 npm install nodemon
 
